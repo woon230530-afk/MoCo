@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p>Before the script...</p>
+    <script>
+        alert('Hello,world');
+    </script>
+    <p>...After the script.</p>
+</body>
+</html>
+
+01.html
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    <p>Before the script...</p>
+    <script src="js/04.js?v=2"></script>
+    <p>...After the script.</p>
+</body>
+</html>
+
+02.html
+
+
+alert("Hello World.");
+
+02.js
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    <p>Before the script...</p>
+    <script src="js/02.js" defer></script>
+    <script src="js/03.js" defer></script>
+    <p>...After the script.</p>
+</body>
+</html>
+
+03.html
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    <p>Before the script...</p>
+     <script src="js/02.js"></script>
+     <script>
+        alert('Hello,world!html04');
+    </script>
+    <p>...After the script.</p>
+</body>
+</html>
+
+04.html
+
+
+
+
+alert("Hello World.js/02");
+
+02.js
+
+
+
+alert("Hello World.js/03");
+
+03.js
